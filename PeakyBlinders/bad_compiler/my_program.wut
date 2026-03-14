@@ -1,0 +1,103 @@
+) ============================================================
+) Program: PeakyBlinders Team Demo
+) Output: Hello, Team: Peaky Blinders, Member: AryanSisodiya,
+)         5+3=8, 7x7=49, Done!
+) Features: comments, delta arithmetic, loops, swap, negate,
+)           increment, decrement, computed arithmetic results
+) ============================================================
+
+) --- Section 1: Team Introduction ---
+~(7%^
+(29%^
+(7%^
+^
+(3%^
+(67#%^
+(12#%^
+(52%^
+(17%^
+(4#%^
+(12%^
+(51#%^
+(26#%^
+(48%^
+(21%^
+(4#%^
+(10%^
+(14%^
+(89#%^
+(34%^
+(42%^
+(3#%^
+(5%^
+(10#%^
+!^
+(13%^
+!^
+(71#%^
+(12#%^
+(45%^
+(24%^
+(8%^
+(11#%^
+(3%^
+(13%^
+(56#%^
+(26#%^
+(33%^
+(49%^
+(7%^
+(24#%^
+(13%^
+(27#%^
+(22%^
+(10%^
+(4#%^
+(11#%^
+(5%^
+(16%^
+(24#%^
+(53#%^
+(12#%^
+
+) --- Section 2: Arithmetic Demo 1 - Addition (5+3=8) ---
+) Print "5+3=" then actually COMPUTE 5+3 and display result
+(21%^
+(10#%^
+(8%^
+(10%^
+) COMPUTE: pop, push 5, push 3, add -> 8, add 48 for ASCII -> 56
+`(5(3%
+(48%^
+
+) --- Section 3: Arithmetic Demo 2 - Multiplication Loop (7x7=49) ---
+) Print ", 7x7=" then COMPUTE 7*7 via loop with swap
+(12#%^
+(12#%^
+(23%^
+(65%^
+(65#%^
+(6%^
+) COMPUTE: 7*7 using multiplication loop
+) Pop old val, push accumulator=0, counter=7
+`(0(7
+) Loop body: swap(accum to top), add 7, swap(counter to top), decrement
+&$(7%$@*
+) Result: stack=[49,0]. Pop 0.
+`
+) Print "49": tens digit 49+3=52, ones digit 52+5=57
+(3%^
+(5%^
+
+) --- Section 4: Closing ---
+(13#%^
+(12#%^
+(36%^
+(43%^
+@^
+(9#%^
+
+) --- Cleanup: drain stack for clean exit ---
+(101#%
+`
+) Compiler appends '!' -> final char of Done!
