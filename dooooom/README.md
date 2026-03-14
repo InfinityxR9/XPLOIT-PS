@@ -23,6 +23,14 @@ unzip freedoom-0.13.0.zip
 mv freedoom-0.13.0/freedoom1.wad .
 rm -rf freedoom-0.13.0 freedoom-0.13.0.zip
 
+   ```
+wget https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip
+unzip freedoom-0.13.0.zip
+mv freedoom-0.13.0/freedoom1.wad .
+rm -rf freedoom-0.13.0 freedoom-0.13.0.zip
+
+   ```
+
 
 ## The Task
 
